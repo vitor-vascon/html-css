@@ -1,0 +1,8 @@
+@charset "UT8";
+
+h1 {
+    border: 20px solid black;
+    padding: 10px; 
+
+    border-image: url('borda.png') 20 repeat
+}

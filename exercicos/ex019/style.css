@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* 
+id = #
+class = .
+só pode ter um id igual por documento.
+*/
+
+body {
+    background-color: rgb(235, 255, 235);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(5, 103, 5);
+}
+
+h1#principal {
+    text-align: center;
+    background-color:rgb(5, 103, 5);
+    color: #ffffff; 
+}
+
+ h2 {
+    color: rgb(83, 109, 83);
+}
+
+.basico {
+    color: rgb(42, 172, 42);
+}
+
+.intermediario {
+    color: rgb(168, 172, 42);
+}
+
+.avancado {
+    color: rgb(172, 42, 42);
+}
+
+.destaque {
+    background-color: rgba(252, 252, 91, 0.58);
+}

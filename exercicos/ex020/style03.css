@@ -1,0 +1,49 @@
+@charset "UTFG-8";
+
+/* SELETORES PERSONALIZADOS 
+  #  = id
+  .  = class
+  :  = pseudo-class
+  :: = pseudo-element
+  > = clildren
+*/
+
+
+
+body {
+    font-family: Arial, helvetica, sans-serif;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;  
+}
+
+a:active {
+    color: yellow;
+}
+
+.especial {
+    background-color: red;
+}
+
+.especial::after {
+    content:'✔ ';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+
+.especial::before {
+    content: ' ✔';
+}
