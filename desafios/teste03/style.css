@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url(/fontes/idroid.otf) format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Patrick+Hand+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+:root {
+    --cor0:#203E7A;
+    --cor1:#516691;
+    --cord2:#339ECC;
+    --cor3:#3FBCCC;
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
+    --android: Android, cursive;
+}
+body {
+    background-color: rgba(2, 53, 53, 0.687);
+
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--android);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor0));
+    padding: 10px;
+    padding-top: 10px;
+}
+
+header > a {
+    color: white;
+    margin: 20px;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 2em;
+    text-decoration: none;
+    transition: calc(.5s);
+}
+
+header > a:hover {
+    text-decoration: none;
+    background-color: var(--cor3);
+    border-radius: 10px;
+}
+
+main {
+    background-color: #ffffffc4;
+    margin: auto;
+    box-shadow: 0px 10px 15px  rgba(0, 0, 0, 0.868);
+
+
+    min-width: 320px;
+    max-width: 800px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(0, 99, 0);
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: rgb(4, 57, 4);
+}
+img {
+    display: block;
+    margin: auto;
+}
+
+main > h1 {
+    font-family: 'Ease Sea Dokdo', cursive;
+
+}
+
+main > p {
+    text-align: justify;
+    padding: 10px;
+    font-family: 'Merienda One', cursive;
+}
+
+div {
+    color: rgb(22, 22, 189);
+    width: 500px;
+    height: 400px;
+}
+
+
