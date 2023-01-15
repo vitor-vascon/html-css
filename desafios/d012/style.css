@@ -37,15 +37,16 @@ header > h1 {
 
 header > p {
     padding-bottom: 50px;
+    font-size: 2em;
 }
 
-a {
+header a, footer a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
 
-a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
@@ -56,7 +57,7 @@ section {
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
-    
+
 }
 
 section.normal {
@@ -65,15 +66,13 @@ section.normal {
 }
 
 section.imagem {
-    display: inline-block;
-    padding: 30px;
     background-color: rgb(41, 38, 38);
     color: white;   
 
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.354);
 }
 
