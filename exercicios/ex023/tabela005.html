@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercícios de Tabela</title>
+
     <style>
         table {
             border-collapse: collapse;
@@ -19,14 +20,14 @@
         th, td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center;
         }
 
-        col:nth-child(odd) {
+        col.cgroup {
             background-color: red;
         }
-        col:nth-child(even) {
-            background-color: yellow;
-        }
+
+          
 
     </style>
 </head>
@@ -83,5 +84,28 @@
         </tr>
     </table>
     
+
+    <table>
+        <caption>Revisando</caption>
+        <colgroup>
+            <col class="nome">
+            <col class="cgroup" span="2">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Vitor</td>
+            <td>Masculino</td>
+            <td>Arquiteto</td>
+        </tr>
+        <tr>
+            <td>Layla</td>
+            <td>Feminino</td>
+            <td>Barbeira</td>
+        </tr>
+    </table>
 </body>
 </html>
