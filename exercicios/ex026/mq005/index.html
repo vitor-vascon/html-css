@@ -35,9 +35,11 @@
     <script>
         function clickMenu() {
             if (itens.style.display !== 'block') {
-                itens.style.display = 'block' 
+                itens.style.display = 'block'
+                burguer.innerText = 'menu_open' 
             } else {
                 itens.style.display = 'none'
+                burguer.innerText = 'menu'
             }
         } 
     </script>
